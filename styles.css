@@ -1,0 +1,298 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #005f73;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffba08;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #023047;
+    color: #ffffff;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Carousel styles */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    margin: 1em 0;
+}
+
+.carousel img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.carousel img:hover {
+    transform: scale(1.1);
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 2em;
+}
+
+/* Product card styles */
+.product {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.product p {
+    font-size: 0.9em;
+    padding: 0 1em;
+    color: #666;
+}
+
+.product button {
+    background-color: #ffba08;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #faa307;
+}
+
+/* Cart styles */
+.cart {
+    background-color: #ffffff;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.cart h2 {
+    margin-bottom: 1em;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+.cart ul li button {
+    background-color: #d90429;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart ul li button:hover {
+    background-color: #ef233c;
+}
+
+.cart p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cart button {
+    background-color: #2b9348;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.cart button:hover {
+    background-color: #40916c;
+}
+
+/* Payment form styles */
+.payment-form {
+    background-color: #ffffff;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.payment-form h2 {
+    margin-bottom: 1em;
+}
+
+.payment-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.payment-form label {
+    text-align: left;
+}
+
+.payment-form input {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.payment-form button {
+    background-color: #2b9348;
+    color: #ffffff;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+    background-color: #40916c;
+}
+
+/* Footer styles */
+footer {
+    background-color: #023047;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer a {
+    color: #ffba08;
+    margin: 0 0.5em;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #faa307;
+}
+
+/* Login form styles */
+.login-form {
+    background-color: #ffffff;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5em auto;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.login-form h2 {
+    margin-bottom: 1em;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.login-form label {
+    text-align: left;
+}
+
+.login-form input {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.login-form button {
+    background-color: #2b9348;
+    color: #ffffff;
+}
+
+/* Video grid styles */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    justify-items: center;
+}
+
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-item video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-item p {
+    margin-top: 0.5em;
+    font-size: 1em;
+    color: #666;
+}
